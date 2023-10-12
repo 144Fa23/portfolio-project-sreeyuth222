@@ -1,0 +1,122 @@
+/* Reset */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+    font-size: 18px; /* Increased font size for body text */
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Font styling for the header */
+.header-title {
+    font-family: 'Roboto', sans-serif; /* Use Google Font Roboto */
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header-subtitle {
+    font-family: 'Roboto', sans-serif; /* Use Google Font Roboto */
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center image */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px; /* Increased font size for navigation links */
+    padding: 12px 18px; /* Slightly larger padding for a professional touch */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #87CEEB; /* Light blue color */
+    color: #fff; /* Text color, you may need to adjust this based on the new background color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.character {
+    font-size: 2em;
+    color: #3498db;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 600px) {
+    /* Tablet and Desktop Styles */
+    main {
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* Desktop Styles */
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
